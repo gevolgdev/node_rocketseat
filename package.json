@@ -1,0 +1,16 @@
+{
+  "name": "node.rocketseat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --watch src/server.js",
+    "start:stream": "node stream/stream-http-server.js",
+    "stream": "node stream/stream.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
